@@ -47,6 +47,14 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+
+			<!-- to write integration test and mock stub using WireMock -->
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-starter-contract-stub-runner</artifactId>
+				<scope>test</scope>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
