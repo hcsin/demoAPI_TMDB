@@ -1,15 +1,15 @@
-package com.example.demoNetflix.model;
+package com.example.demoNetflix.dto;
 
 import lombok.*;
 
 @Getter
-@Setter
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class Movie {
-    private int id;
+public class MovieDto {
+    private String id;
     private String original_title;
     private String overview;
     private String poster_path;
+
 }
